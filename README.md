@@ -33,6 +33,9 @@ Add: netproto and pthread
 
 void main() {
 
+    #include <stdio.h>
+    #define window_size 4  // Assume 7 frames of data are to be sent using Go-Back-N ARQ
+    void main() {
     int i, window_start = 1, ack;
     
     int n;
